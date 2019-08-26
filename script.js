@@ -58,10 +58,27 @@ function changeToGreen() {
 
 boutnEdit.addEventListener('click', changeToGreen);
 
+//———————————————————————— Fonctionnalité #5 ————————————————————————
+
+let navbarHeaderBoom = document.getElementById('navbarHeader');
+let bootstrapToRemove = document.getElementsByTagName('link')[0];
+console.log(navbarHeaderBoom);
+console.log(bootstrapToRemove);
 
 
-//function changeToRed () {
-//    caard[0].style.color='green';
-//}
-//  
-//boutnEdit[1].addEventListener('click', changeToRed);
+function disableBootstrap(){
+    if (..== .) {
+        ... = '...';
+
+         return false;
+    } else {
+        ... = '...'
+    }
+}
+
+disableBootstrap.addEventListener('dblclick', disableBootstrap);
+
+
+    
+    
+    
