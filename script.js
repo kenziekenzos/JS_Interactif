@@ -1,13 +1,13 @@
 //———————————————————————— Fonctionnalité #1 ————————————————————————
 var onFooterClick = document.querySelector('footer');
- count = 0;
-onFooterClick.addEventListener('click', fooTer );
-  
+count = 0;
+onFooterClick.addEventListener('click', fooTer);
 
-function fooTer () {
+
+function fooTer() {
     console.log("click");
     count += 1;
-            };
+};
 
 //———————————————————————— Fonctionnalité #2 ————————————————————————
 
@@ -18,8 +18,8 @@ console.log(navbarHeaderEl);
 console.log(burgerBtn);
 
 
-function collapseToggle(){
-	navbarHeaderEl.classList.toggle('collapse');
+function collapseToggle() {
+    navbarHeaderEl.classList.toggle('collapse');
 }
 
 burgerBtn[0].addEventListener('click', collapseToggle);
@@ -31,11 +31,11 @@ burgerBtn[0].addEventListener('click', collapseToggle);
 let card = document.querySelectorAll(".card-body p");
 let btnEdit = document.querySelectorAll(".card .btn");
 
-function changeToRed () {
-    card[0].style.color='red';
+function changeToRed() {
+    card[0].style.color = 'red';
 }
-  
-btnEdit[1].addEventListener('click', changeToRed); 
+
+btnEdit[1].addEventListener('click', changeToRed);
 
 
 //———————————————————————— Fonctionnalité #4 ————————————————————————
@@ -47,12 +47,13 @@ let boutnEdit = document.querySelectorAll(".card .btn")[3];
 console.log(caard);
 console.log(boutnEdit);
 
-function changeToGreen()
-    {if (caard.style.color === '#212529'){ 
-            caard.style.color = 'green' ; 
+function changeToGreen() {
+    if (caard.style.color == "") {
+        caard.style.color = 'green';
 
-    } else { caard.style.color === '#212529'   
-            }
+    } else {
+        caard.style.color = ''
+    }
 }
 
 boutnEdit.addEventListener('click', changeToGreen);
@@ -63,4 +64,4 @@ boutnEdit.addEventListener('click', changeToGreen);
 //    caard[0].style.color='green';
 //}
 //  
-//boutnEdit[1].addEventListener('click', changeToRed); 
+//boutnEdit[1].addEventListener('click', changeToRed);
