@@ -1,4 +1,4 @@
-Hello visitor ,
+<h2>Hello visitor ,</h2>
 
 Aujourd’hui, à travers une serie d'exercices on va decouvrir la puissance de JavaScript;<br> 
 Il existe 5 fonctionnalités: <br>
